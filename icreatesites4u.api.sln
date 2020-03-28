@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icreatesites4u.api", "icreatesites4u.api\icreatesites4u.api.csproj", "{CA49B679-CDA6-4F91-ADF7-02CB7C33C08D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA49B679-CDA6-4F91-ADF7-02CB7C33C08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA49B679-CDA6-4F91-ADF7-02CB7C33C08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA49B679-CDA6-4F91-ADF7-02CB7C33C08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA49B679-CDA6-4F91-ADF7-02CB7C33C08D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02A53EC8-C453-4F5B-B0DF-88D4059B83A7}
+	EndGlobalSection
+EndGlobal
