@@ -14,10 +14,10 @@ namespace icreatesites4u.api.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly DevRepository _repo;
+        private readonly IDevRepository _repo;
         private readonly IMapper _mapper;
 
-        public UsersController(DevRepository repo, IMapper mapper)
+        public UsersController(IDevRepository repo, IMapper mapper)
         {
             _repo = repo;
             _mapper = mapper;
