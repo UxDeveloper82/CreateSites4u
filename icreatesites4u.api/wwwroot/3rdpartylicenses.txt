@@ -123,7 +123,12 @@ ngx-bootstrap/dropdown
 
 ngx-bootstrap/positioning
 
+ngx-bootstrap/tabs
+
 ngx-bootstrap/utils
+
+ngx-gallery
+MIT
 
 punycode
 MIT
