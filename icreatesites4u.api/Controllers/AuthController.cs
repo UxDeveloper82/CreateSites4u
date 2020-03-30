@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using icreatesites4u.api.Data;
 using icreatesites4u.api.Dtos;
 using icreatesites4u.api.Models;
@@ -21,11 +22,14 @@ namespace icreatesites4u.api.Controllers
     {
         private readonly IAuthRepository _repo;
         private readonly IConfiguration _config;
+        private readonly IMapper _mapper;
 
-        public AuthController(IAuthRepository repo, IConfiguration config)
+        public AuthController(IAuthRepository repo, IConfiguration config,
+             IMapper mapper)
         {
             _repo = repo;
             _config = config;
+            _mapper = mapper;
         }
 
         [HttpPost("register")]
@@ -77,8 +81,11 @@ namespace icreatesites4u.api.Controllers
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
+            var user = _mapper.Map<UserForListDto>(userFromRepo);
+
             return Ok(new {
-                token = tokenHandler.WriteToken(token)
+                token = tokenHandler.WriteToken(token),
+                user
             });
         }
     }

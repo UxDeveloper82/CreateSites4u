@@ -44,6 +44,7 @@ namespace icreatesites4u.api
                 });
             services.AddCors();
             services.AddAutoMapper();
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
             services.AddTransient<Seed>();
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IDevRepository, DevRepository>();
