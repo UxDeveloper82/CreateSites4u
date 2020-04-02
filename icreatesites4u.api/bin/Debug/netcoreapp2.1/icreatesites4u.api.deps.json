@@ -25,7 +25,7 @@
       "icreatesites4u.api/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "4.0.1",
-          "CloudinaryDotNet": "1.10.0",
+          "CloudinaryDotNet": "1.8.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.2",
@@ -69,14 +69,14 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "CloudinaryDotNet/1.10.0": {
+      "CloudinaryDotNet/1.8.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard1.3/CloudinaryDotNet.dll": {
-            "assemblyVersion": "1.10.0.0",
-            "fileVersion": "1.10.0.0"
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
           }
         },
         "compile": {
@@ -3705,12 +3705,12 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/4.0.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.4.0.1.nupkg.sha512"
     },
-    "CloudinaryDotNet/1.10.0": {
+    "CloudinaryDotNet/1.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-y4C2BkacylKVAzXFFUBpLOTkevGJgxAYMxGbAghj4wJmlf8F7BG2m9Dg9+SOR6xKcMOXbu2kRw2/UdqP9GSbvA==",
-      "path": "cloudinarydotnet/1.10.0",
-      "hashPath": "cloudinarydotnet.1.10.0.nupkg.sha512"
+      "sha512": "sha512-jrxUPvVmdGL+8wDGQn4rBrRh7jKPDTqUW1kBj+fwmGdiMW5aBArQ3P2ErnYA84AQgvJnb2JwP3WTlwD2Yc/kdA==",
+      "path": "cloudinarydotnet/1.8.0",
+      "hashPath": "cloudinarydotnet.1.8.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",

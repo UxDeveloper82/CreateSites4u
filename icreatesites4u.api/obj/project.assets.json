@@ -27,10 +27,10 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "CloudinaryDotNet/1.10.0": {
+      "CloudinaryDotNet/1.8.0": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "11.0.1"
         },
         "compile": {
           "lib/netstandard1.3/CloudinaryDotNet.dll": {}
@@ -4844,26 +4844,21 @@
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
-    "CloudinaryDotNet/1.10.0": {
-      "sha512": "y4C2BkacylKVAzXFFUBpLOTkevGJgxAYMxGbAghj4wJmlf8F7BG2m9Dg9+SOR6xKcMOXbu2kRw2/UdqP9GSbvA==",
+    "CloudinaryDotNet/1.8.0": {
+      "sha512": "jrxUPvVmdGL+8wDGQn4rBrRh7jKPDTqUW1kBj+fwmGdiMW5aBArQ3P2ErnYA84AQgvJnb2JwP3WTlwD2Yc/kdA==",
       "type": "package",
-      "path": "cloudinarydotnet/1.10.0",
+      "path": "cloudinarydotnet/1.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "cloudinarydotnet.1.10.0.nupkg.sha512",
+        "cloudinarydotnet.1.8.0.nupkg.sha512",
         "cloudinarydotnet.nuspec",
-        "lib/net45/CloudinaryDotNet.dll",
-        "lib/net45/CloudinaryDotNet.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "lib/net45/System.Text.Encodings.Web.dll",
+        "lib/net40/CloudinaryDotNet.dll",
+        "lib/net40/Newtonsoft.Json.dll",
         "lib/netcore/CloudinaryDotNet.deps.json",
         "lib/netcore/CloudinaryDotNet.dll",
-        "lib/netcore/CloudinaryDotNet.xml",
         "lib/netstandard1.3/CloudinaryDotNet.deps.json",
-        "lib/netstandard1.3/CloudinaryDotNet.dll",
-        "lib/netstandard1.3/CloudinaryDotNet.xml"
+        "lib/netstandard1.3/CloudinaryDotNet.dll"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -12981,7 +12976,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 4.0.1",
-      "CloudinaryDotNet >= 1.10.0",
+      "CloudinaryDotNet >= 1.8.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.2",
@@ -13040,7 +13035,7 @@
           },
           "CloudinaryDotNet": {
             "target": "Package",
-            "version": "[1.10.0, )"
+            "version": "[1.8.0, )"
           },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",

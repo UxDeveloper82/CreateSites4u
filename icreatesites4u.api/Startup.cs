@@ -36,7 +36,7 @@ namespace icreatesites4u.api
         public void ConfigureServices(IServiceCollection services)
         {
             
-            services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
                 .AddJsonOptions(opt => {
                     opt.SerializerSettings.ReferenceLoopHandling =
@@ -86,7 +86,7 @@ namespace icreatesites4u.api
             }
 
             //app.UseHttpsRedirection();
-            //seeder.SeedUsers();
+            seeder.SeedUsers();
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseAuthentication();
             app.UseMvc();

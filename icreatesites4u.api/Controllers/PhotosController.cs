@@ -19,14 +19,14 @@ using Microsoft.Extensions.Options;
 namespace icreatesites4u.api.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
+    [Route("api/users/{userId}/photos")]
     [ApiController]
     public class PhotosController : ControllerBase
     {
         private readonly IDevRepository _repo;
         private readonly IMapper _mapper;
         private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
-        private readonly Cloudinary _cloudinary;
+        private Cloudinary _cloudinary;
 
         public PhotosController(IDevRepository repo, IMapper mapper,
             IOptions<CloudinarySettings> cloudinaryConfig)
