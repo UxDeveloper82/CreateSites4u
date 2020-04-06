@@ -16,3 +16,4 @@ C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Debug\net
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Debug\netcoreapp2.1\icreatesites4u.api.genruntimeconfig.cache
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\bin\Debug\netcoreapp2.1\Data\UserSeedData.json
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Debug\netcoreapp2.1\icreatesites4u.api.csproj.CoreCompileInputs.cache
+C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Debug\netcoreapp2.1\icreatesites4u.api.csprojAssemblyReference.cache
