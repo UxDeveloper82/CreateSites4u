@@ -10,8 +10,8 @@ using icreatesites4u.api.Data;
 namespace icreatesites4u.api.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200402011859_InitialModel")]
-    partial class InitialModel
+    [Migration("20200409215108_InitalModel")]
+    partial class InitalModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,6 +20,19 @@ namespace icreatesites4u.api.Migrations
                 .HasAnnotation("ProductVersion", "2.1.14-servicing-32113")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("icreatesites4u.api.Models.Like", b =>
+                {
+                    b.Property<int>("LikerId");
+
+                    b.Property<int>("LikeeId");
+
+                    b.HasKey("LikerId", "LikeeId");
+
+                    b.HasIndex("LikeeId");
+
+                    b.ToTable("Likes");
+                });
 
             modelBuilder.Entity("icreatesites4u.api.Models.Photo", b =>
                 {
@@ -94,6 +107,19 @@ namespace icreatesites4u.api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Values");
+                });
+
+            modelBuilder.Entity("icreatesites4u.api.Models.Like", b =>
+                {
+                    b.HasOne("icreatesites4u.api.Models.User", "Likee")
+                        .WithMany("Likers")
+                        .HasForeignKey("LikeeId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("icreatesites4u.api.Models.User", "Liker")
+                        .WithMany("Likees")
+                        .HasForeignKey("LikerId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 
             modelBuilder.Entity("icreatesites4u.api.Models.Photo", b =>

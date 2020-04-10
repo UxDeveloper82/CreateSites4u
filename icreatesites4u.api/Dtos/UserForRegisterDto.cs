@@ -19,6 +19,8 @@ namespace icreatesites4u.api.Dtos
         public string Gender { get; set; }
 
         [Required]
+        public string KnownAs { get; set; }
+        [Required]
         public DateTime DateOfBirth { get; set; }
         [Required]
         public string City { get; set; }
