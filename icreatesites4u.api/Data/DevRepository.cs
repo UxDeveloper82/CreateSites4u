@@ -170,5 +170,20 @@ namespace icreatesites4u.api.Data
 
             return messages;
         }
+
+        public async Task<Post> GetPost(int id)
+        {
+            var post = await _context.Posts.FirstOrDefaultAsync(u => u.Id == id);
+
+            return post;
+        }
+
+        public async Task<IEnumerable<Post>> GetPosts()
+        {
+            var posts = await _context.Posts.ToListAsync();
+
+            return posts;
+
+        }
     }
 }

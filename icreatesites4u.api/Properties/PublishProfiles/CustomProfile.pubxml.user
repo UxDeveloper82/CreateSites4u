@@ -17,7 +17,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2020 20:40:15</publishTime>
     </File>
     <File Include="appsettings.production.json">
-      <publishTime>04/11/2020 10:58:58</publishTime>
+      <publishTime>07/03/2020 10:26:09</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>06/18/2018 13:00:14</publishTime>
@@ -35,16 +35,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/24/2019 19:57:52</publishTime>
     </File>
     <File Include="icreatesites4u.api.deps.json">
-      <publishTime>04/11/2020 10:58:57</publishTime>
+      <publishTime>07/03/2020 10:26:09</publishTime>
     </File>
     <File Include="icreatesites4u.api.dll">
-      <publishTime>04/11/2020 10:58:51</publishTime>
+      <publishTime>07/03/2020 10:23:50</publishTime>
     </File>
     <File Include="icreatesites4u.api.pdb">
-      <publishTime>04/11/2020 10:58:51</publishTime>
+      <publishTime>07/03/2020 10:23:50</publishTime>
     </File>
     <File Include="icreatesites4u.api.runtimeconfig.json">
-      <publishTime>04/01/2020 01:45:15</publishTime>
+      <publishTime>07/03/2020 10:23:52</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
       <publishTime>03/10/2019 13:04:06</publishTime>
@@ -161,163 +161,229 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2019 13:01:27</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>04/11/2020 10:58:58</publishTime>
+      <publishTime>07/03/2020 10:26:09</publishTime>
     </File>
     <File Include="wwwroot/3rdpartylicenses.txt">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/about-us.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/apps.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/back.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/blog1.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/blog2.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/blog3.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/blog4.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/client-info-bg.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/codeavengers.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/codecademy.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/codewars.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/contact-bg.jpg">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/data.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/design.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/ecommerce.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/footer-bg.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/freecodecamp.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/gitfit.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/github.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/grid.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/header-bg.jpg">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/home-banner.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Inventory.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/khanacademy.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo1.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo2.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo3.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo4.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo5.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo6.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo7.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo8.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/logo9.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/me.jpg">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/mobil.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/music.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/myself.jpg">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/orrepair.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/photography.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/pluralsight.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/s1.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/s2.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/s3.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/s4.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/slider.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/Startup2-logo_03.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/treehouse.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/udacity.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/udemy.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/ui.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/user.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/vscode.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/w3schools.png">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/assets/images/websites.png">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/es2015-polyfills.0e3b026a1220009b1e45.js">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/es2015-polyfills.e17997aea7f522b8d49d.js">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>04/15/2020 18:52:53</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.674f50d287a8c48dc19b.eot">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.912ec66d7572ff821749.svg">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.af7ae505a9eed503f8b8.woff2">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.b06871f281fee6b241d6.ttf">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.fee66e712a8a08eef580.woff">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/header-bg.b07c2e78c7a2dca7c81c.jpg">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>04/11/2020 23:22:31</publishTime>
     </File>
     <File Include="wwwroot/index.html">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/main.0816d32bfa4fa3e098e0.js">
+      <publishTime>04/11/2020 19:51:59</publishTime>
     </File>
     <File Include="wwwroot/main.0850c43a77c8561a99d1.js">
       <publishTime>04/07/2020 22:03:10</publishTime>
+    </File>
+    <File Include="wwwroot/main.123961455637145d8a09.js">
+      <publishTime>04/12/2020 12:20:34</publishTime>
+    </File>
+    <File Include="wwwroot/main.1d9283abca20932776b3.js">
+      <publishTime>04/12/2020 17:44:54</publishTime>
+    </File>
+    <File Include="wwwroot/main.1f424ebf0cd22f95a033.js">
+      <publishTime>04/11/2020 22:44:53</publishTime>
+    </File>
+    <File Include="wwwroot/main.26aff5ed9014ccfae143.js">
+      <publishTime>04/13/2020 00:13:15</publishTime>
+    </File>
+    <File Include="wwwroot/main.26b4501e470a44dc072b.js">
+      <publishTime>04/11/2020 15:31:40</publishTime>
+    </File>
+    <File Include="wwwroot/main.3437e8845b1ddba4465c.js">
+      <publishTime>04/11/2020 16:36:11</publishTime>
     </File>
     <File Include="wwwroot/main.378ac59b3069eb60a8a2.js">
       <publishTime>04/05/2020 20:16:07</publishTime>
@@ -331,14 +397,44 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/main.4919b408f37e35004b5c.js">
       <publishTime>04/05/2020 16:33:58</publishTime>
     </File>
+    <File Include="wwwroot/main.4960133627b963b344ae.js">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/main.5dca3287098641d169df.js">
+      <publishTime>04/19/2020 23:24:53</publishTime>
+    </File>
+    <File Include="wwwroot/main.623af0b3e0709854cad5.js">
+      <publishTime>04/11/2020 18:23:04</publishTime>
+    </File>
     <File Include="wwwroot/main.639753a1a39dc9e1d88e.js">
       <publishTime>04/11/2020 07:55:48</publishTime>
     </File>
     <File Include="wwwroot/main.6feb5bd3f23877969e70.js">
       <publishTime>04/05/2020 12:53:16</publishTime>
     </File>
+    <File Include="wwwroot/main.746ff0a242f0b0aabbe2.js">
+      <publishTime>04/12/2020 21:55:58</publishTime>
+    </File>
+    <File Include="wwwroot/main.74d6cfcf36e042dc6f7f.js">
+      <publishTime>04/12/2020 01:12:46</publishTime>
+    </File>
     <File Include="wwwroot/main.7634501e826feaeae285.js">
       <publishTime>04/05/2020 21:33:41</publishTime>
+    </File>
+    <File Include="wwwroot/main.76948ea5fc25e02954b7.js">
+      <publishTime>04/12/2020 22:43:20</publishTime>
+    </File>
+    <File Include="wwwroot/main.7ee2c3a1a14702947ad1.js">
+      <publishTime>04/12/2020 14:24:48</publishTime>
+    </File>
+    <File Include="wwwroot/main.82bddfdafa26c18bd889.js">
+      <publishTime>04/13/2020 01:27:09</publishTime>
+    </File>
+    <File Include="wwwroot/main.8384f56cc43a60cbd6f0.js">
+      <publishTime>04/11/2020 16:01:56</publishTime>
+    </File>
+    <File Include="wwwroot/main.8676c4518669a7fbc198.js">
+      <publishTime>04/12/2020 20:02:23</publishTime>
     </File>
     <File Include="wwwroot/main.87828dc4b9515681ca56.js">
       <publishTime>04/04/2020 22:22:19</publishTime>
@@ -349,8 +445,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/main.8b926aee7e4eae870e96.js">
       <publishTime>04/04/2020 20:08:07</publishTime>
     </File>
+    <File Include="wwwroot/main.8c8bad9761fdf0314674.js">
+      <publishTime>04/12/2020 16:01:55</publishTime>
+    </File>
     <File Include="wwwroot/main.95f0aaf7a4dd3a564294.js">
       <publishTime>04/03/2020 00:08:31</publishTime>
+    </File>
+    <File Include="wwwroot/main.96aa65e82ea003ece2a9.js">
+      <publishTime>04/20/2020 00:10:06</publishTime>
+    </File>
+    <File Include="wwwroot/main.9f606ac8b08b1a1bffd6.js">
+      <publishTime>04/12/2020 23:46:07</publishTime>
     </File>
     <File Include="wwwroot/main.a2814ca4c68c02b02b5f.js">
       <publishTime>04/05/2020 10:19:42</publishTime>
@@ -373,6 +478,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/main.b9dcfe049b0a0e1ab5be.js">
       <publishTime>04/05/2020 13:40:37</publishTime>
     </File>
+    <File Include="wwwroot/main.c7fd3a63a5559ef5c1c2.js">
+      <publishTime>06/01/2020 01:34:23</publishTime>
+    </File>
     <File Include="wwwroot/main.cd97bc295c90f0e159c1.js">
       <publishTime>04/05/2020 09:24:48</publishTime>
     </File>
@@ -382,23 +490,53 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/main.dc0867c7aad17576c3dc.js">
       <publishTime>04/04/2020 20:51:37</publishTime>
     </File>
+    <File Include="wwwroot/main.e219ae9a6bef88ac473a.js">
+      <publishTime>04/13/2020 20:03:56</publishTime>
+    </File>
+    <File Include="wwwroot/main.eb72b6fcf92bf07507d8.js">
+      <publishTime>04/15/2020 18:52:53</publishTime>
+    </File>
     <File Include="wwwroot/main.f66c29258a4c35e1dc13.js">
       <publishTime>04/05/2020 20:54:28</publishTime>
     </File>
     <File Include="wwwroot/main.fc86181239c1c9f8b595.js">
       <publishTime>04/01/2020 02:49:55</publishTime>
     </File>
+    <File Include="wwwroot/main.fcb6fcb844c1f03cf38a.js">
+      <publishTime>04/11/2020 23:22:32</publishTime>
+    </File>
     <File Include="wwwroot/polyfills.8bbb231b43165d65d357.js">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>04/15/2020 18:52:53</publishTime>
+    </File>
+    <File Include="wwwroot/polyfills.e5f40387895614d6ad96.js">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/runtime.26209474bfa8dc87a77c.js">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>04/15/2020 18:52:53</publishTime>
+    </File>
+    <File Include="wwwroot/runtime.9829d82fe1d8217a125b.js">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/scripts.00aef30835fc60cdc996.js">
+      <publishTime>07/03/2020 10:18:39</publishTime>
     </File>
     <File Include="wwwroot/scripts.36dbbe192861c60ce1c6.js">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>04/15/2020 18:52:53</publishTime>
+    </File>
+    <File Include="wwwroot/styles.0a4ed02db96b9889e64b.css">
+      <publishTime>06/01/2020 01:05:07</publishTime>
+    </File>
+    <File Include="wwwroot/styles.4b525df52505b1f66e48.css">
+      <publishTime>07/03/2020 10:18:39</publishTime>
+    </File>
+    <File Include="wwwroot/styles.4cce8373e6dd187531c4.css">
+      <publishTime>04/15/2020 18:52:53</publishTime>
     </File>
     <File Include="wwwroot/styles.67e0b6d0bd5ff6d9ac75.css">
-      <publishTime>04/11/2020 10:55:43</publishTime>
+      <publishTime>04/11/2020 23:22:31</publishTime>
+    </File>
+    <File Include="wwwroot/styles.c060a1a0ed8809668ee2.css">
+      <publishTime>04/12/2020 01:12:46</publishTime>
     </File>
     <File Include="wwwroot/styles.dc7adbc11cbdc60ab9f6.css">
       <publishTime>04/03/2020 00:08:31</publishTime>

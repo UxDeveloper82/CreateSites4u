@@ -7,7 +7,6 @@ C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\bin\Release\n
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\bin\Release\netcoreapp2.1\icreatesites4u.api.runtimeconfig.dev.json
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\bin\Release\netcoreapp2.1\icreatesites4u.api.dll
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\bin\Release\netcoreapp2.1\icreatesites4u.api.pdb
-C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Release\netcoreapp2.1\icreatesites4u.api.csprojAssemblyReference.cache
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Release\netcoreapp2.1\icreatesites4u.api.csproj.CoreCompileInputs.cache
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Release\netcoreapp2.1\icreatesites4u.api.RazorAssemblyInfo.cache
 C:\Users\Martin\Source\Repos\icreatesites4u.api\icreatesites4u.api\obj\Release\netcoreapp2.1\icreatesites4u.api.RazorAssemblyInfo.cs

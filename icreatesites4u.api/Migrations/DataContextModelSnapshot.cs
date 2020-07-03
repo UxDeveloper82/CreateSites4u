@@ -88,6 +88,29 @@ namespace icreatesites4u.api.Migrations
                     b.ToTable("Photos");
                 });
 
+            modelBuilder.Entity("icreatesites4u.api.Models.Post", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Created");
+
+                    b.Property<int>("CreatorId");
+
+                    b.Property<string>("ImageUrl");
+
+                    b.Property<string>("PostDetails");
+
+                    b.Property<int>("PostTitle");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatorId");
+
+                    b.ToTable("Posts");
+                });
+
             modelBuilder.Entity("icreatesites4u.api.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -169,6 +192,14 @@ namespace icreatesites4u.api.Migrations
                     b.HasOne("icreatesites4u.api.Models.User", "User")
                         .WithMany("Photos")
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("icreatesites4u.api.Models.Post", b =>
+                {
+                    b.HasOne("icreatesites4u.api.Models.User", "Creator")
+                        .WithMany("Posts")
+                        .HasForeignKey("CreatorId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
