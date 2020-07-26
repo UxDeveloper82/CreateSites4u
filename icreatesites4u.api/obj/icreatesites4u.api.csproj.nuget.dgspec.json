@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Martin\\Source\\Repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj": {}
+    "C:\\Users\\Elect\\source\\repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Martin\\Source\\Repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj": {
+    "C:\\Users\\Elect\\source\\repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin\\Source\\Repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj",
+        "projectUniqueName": "C:\\Users\\Elect\\source\\repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj",
         "projectName": "icreatesites4u.api",
-        "projectPath": "C:\\Users\\Martin\\Source\\Repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj",
-        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Martin\\Source\\Repos\\icreatesites4u.api\\icreatesites4u.api\\obj\\",
+        "projectPath": "C:\\Users\\Elect\\source\\repos\\icreatesites4u.api\\icreatesites4u.api\\icreatesites4u.api.csproj",
+        "packagesPath": "C:\\Users\\Elect\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elect\\source\\repos\\icreatesites4u.api\\icreatesites4u.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -91,7 +90,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
